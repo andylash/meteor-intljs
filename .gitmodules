@@ -1,0 +1,3 @@
+[submodule "Intl.js"]
+	path = Intl.js
+	url = https://github.com/andyearnshaw/Intl.js.git
