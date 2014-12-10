@@ -2,6 +2,8 @@
 
 Intl.NumberFormat and Intl.DateFormat are really sweet, btu not supported in Safari or most mobile platforms.  This is a wrapper on top of Andy Earnshaw's Intl.js polyfill, but it also adds nice meteor support for loading local files on demand.
 
+More info on Intl.js: https://github.com/andyearnshaw/Intl.js
+
 **Table of Contents**
 
 - [Quick Start](#start)
