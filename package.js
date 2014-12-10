@@ -11,7 +11,7 @@ Package.describe({
   summary: "Meteor wrapper around Intl.js polyfill with some sugar around loading locale files",
   version: "0.1.0",
   name: packageName,
-  git: "https://github.com/andylash/" + packageName + ".git"
+  git: "https://github.com/andylash/" + packageDir + ".git"
 });
 
 //stole this from http://stackoverflow.com/questions/20793505/meteor-package-api-add-files-add-entire-folder
