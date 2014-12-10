@@ -70,6 +70,7 @@ Package.onUse(function(api) {
   //here's the on demand loading part
   api.addFiles('src/loader.js', 'client');
 
+  //Wasn't happy with this dynamic loading
   // var localeFiles = getFilesFromFolder(getFolder());
 
   // console.log("Adding files: " + localeFiles);
