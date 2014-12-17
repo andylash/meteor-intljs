@@ -14,7 +14,9 @@ var loadedLocales = { 'en-US': true };
 IntlPolyfill.__loadLocaleData = function(locale, callback) {
   //Safai doesn't capitalize the country part.  UGH, so normalizing that here
   var parts = locale.match(/(.+-)([a-zA-Z]+)$/);
-  locale = parts[1] + parts[2].toUpperCase();
+  if (parts && parts.length > 2) {
+    locale = parts[1] + parts[2].toUpperCase();
+  }
 
   if (loadedLocales[locale]) {
     //already loaded, exit happily
