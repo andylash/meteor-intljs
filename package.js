@@ -9,7 +9,7 @@ Npm.depends({
 var packageDir = 'meteor-intljs';
 Package.describe({
   summary: "Meteor wrapper around Intl.js polyfill with some sugar around loading locale files",
-  version: "0.1.0",
+  version: "0.1.1",
   name: packageName,
   git: "https://github.com/andylash/" + packageDir + ".git"
 });
